@@ -1,0 +1,370 @@
+@import url('https://fonts.googleapis.com/css2?family=Love+Ya+Like+A+Sister&display=swap');
+
+
+body{
+     font-family: "Love Ya Like A Sister", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    background-color: rgb(46, 49, 146);
+    height: 120px;
+    
+}
+body{
+    margin: 0;
+    padding-top: 180px;
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    gap: 100px;
+
+    
+}
+header img{
+    width: 120px;
+    height: auto;
+
+}
+nav{
+    display: flex;
+    align-items: center;
+    gap: 35px;
+}
+nav a{
+    color: azure;
+    gap: 50px;
+}
+
+#inicio img{
+    display: block;
+    margin: 0 auto;
+}
+
+#inicio figcaption{
+    text-align: center;
+    font-size: 30px;
+}
+#quemsomos img{
+    width: 500px;
+    height: 800px;
+    padding: 5px;
+}
+
+#quemsomos {
+    display: flex;
+    width: 100%;
+    align-items: stretch;
+}
+
+
+.imagem_quemsomos {
+    display: flex;
+    width: 55%;
+}
+
+.imagem_quemsomos img {
+    width: 50%;
+    height: 550px;
+    object-fit: cover;
+}
+
+
+.textoquemsomos {
+    width: 45%;
+    padding: 70px 50px;
+    box-sizing: border-box;
+    color: white;
+    background-color: rgb(46, 49, 146);
+    
+}
+
+
+.textoquemsomos h2 {
+    font-size: 30px;
+    margin-bottom: 25px;
+    color: white;
+
+}
+
+
+.textoquemsomos p {
+    font-size: 16px;
+    line-height: 1.6;
+    text-align: left;
+    color: white;
+    margin: 0;
+}
+
+.facareserva{
+    padding: 50px;
+    text-align: center;
+}
+
+.facareserva{
+    border: 2px solid rgb(46, 49, 146);
+    padding: 10px 20px;
+    width: fit-content;
+    margin: 50px auto 20px;
+    background-color: rgb(46, 49, 146); 
+}
+
+.facareserva a {
+    color: azure;
+}
+
+.reservapelozap{
+    text-align: center;
+    font-size: 20px;
+}
+#fotos{
+    padding: 40px;
+    background-color: rgb(46, 49, 146);
+    text-align: center;
+    color: azure;
+    font-size: 25px;
+}
+
+.vejacardapio{
+    border: 2px solid white;
+    padding: 10px 20px;
+    width: fit-content;
+    margin: 50px auto 20px;
+    font-size: 18px;
+    background-color: white;
+}
+
+
+
+#contato {
+    width: 100%;
+    padding: 50px 0;
+}
+
+.contato {
+    width: 85%;
+    margin: 0 auto;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 80px;
+    align-items: start;
+}
+
+
+
+.Assisteai {
+    grid-column: 1;
+}
+
+.Assisteai h2 {
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+
+
+
+
+.video {
+    grid-column: 1;
+}
+
+.video video {
+    width: 100%;
+    max-width: 650px;
+    display: block;
+}
+
+
+
+
+.Atendimento {
+    grid-column: 2;
+    grid-row: 1;
+}
+
+.Atendimento h2 {
+    font-size: 22px;
+    line-height: 1.3;
+    margin: 0;
+    max-width: 450px;
+}
+
+
+
+
+.imgatendimento {
+    grid-column: 2;
+    grid-row: 2;
+    margin-top: 20px;
+}
+
+.imgatendimento img {
+    width: 300px;
+    max-width: 100%;
+    display: block;
+}
+
+
+.Funcionamento {
+    grid-column: 2;
+    margin-top: -10px;
+    position: relative;
+}
+
+.Funcionamento h2 {
+    font-size: 30px;
+    margin: 0 0 10px 0;
+}
+
+.Funcionamento p {
+    font-size: 18px;
+    line-height: 1.5;
+    margin: 0;
+}
+
+#instagram{
+    background-color: rgb(46, 49, 146);
+    text-align: center;
+    color: white;
+    padding: 30px;
+}
+.instagram a{
+    color: white;
+
+}
+
+.titulo h1{
+    text-align: center;
+    font-size: 35px;
+}
+
+.titulo h3{
+    text-align: center;
+    font-size: 50px;
+}
+
+.botoes{
+    width: 100%;
+    height: 120px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15%;
+}
+
+.botoes a {
+    background-color: rgb(46, 49, 146);
+    color: white;
+    padding: 12px 25px;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+
+}
+
+.instagram a{
+    font-size: 20px;
+}
+
+
+
+footer {
+    width: 100%;
+    background-color: rgb(46, 49, 146);
+}
+
+
+#rodape {
+    min-height: 250px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.logo2 img {
+    width: 130px;
+    height: auto;
+
+    margin-bottom: 40px;
+}
+
+
+
+.logoempresa img {
+    width: 180px;
+    height: auto;
+
+    margin-bottom: 15px;
+}
+
+#rodape h3 {
+    color: white;
+
+    font-size: 10px;
+    font-weight: normal;
+
+    margin: 0;
+}
+
+#rodape p{
+    color: white;
+}
+footer{
+    padding: 70px;
+}
+
+.botoescabecalho{
+    width: 100%;
+    height: 100px;
+    background-color: rgb(46, 49, 146);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15%;
+}
+
+.botoescabecalho a {
+    background-color: white;
+    color: rgb(46, 49, 146);
+    padding: 12px 25px;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+
+}
+    
+#inicio h3{
+    color: rgb(46, 49, 146);
+    font-weight: 60px;
+}
+
+.reservapelozap p{
+        color: rgb(46, 49, 146);
+    }
+
+
+#contato{
+    color: rgb(46, 49, 146);
+}
+
+#localizacao{
+    color: rgb(46, 49, 146);
+}
+html{
+    scroll-behavior: smooth;
+}
